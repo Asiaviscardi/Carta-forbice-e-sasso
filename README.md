@@ -1,0 +1,1 @@
+# Carta-forbice-e-sasso
