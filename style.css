@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.main-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* stile button computer vs computer */
+
+.play-computer {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    background-color: #493b5c;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.play-computer:hover {
+    background-color: #4b18c3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.play-computer:active {
+    transform: scale(1.1);
+    background-color: #c75aae;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* fine stile button compuer vs computer */
+
+.left, .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 239, 249);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* stile scelta player */
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    background-color: #493b5c;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.choice:hover {
+    background-color: #4b18c3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.choice:active {
+    transform: scale(1.1);
+    background-color: #c75aae;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* fine stile scelta player */
+
+#winner {
+    font-size: 18px;
+}
